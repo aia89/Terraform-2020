@@ -9,7 +9,7 @@ subnets = [
 vpc_id = "vpc-068c06c2fb84fa9a1"
 instance_type = "m4.large"
 asg_max_size = 5
-region = "eu-west-1"
+region = "eu-west-3"
 
 
 
@@ -27,7 +27,7 @@ Managed_by  = "infrastructure"
 }
 
 # Below code is used to set backend only
-environment                     =   "Ireland"
+environment                     =   "Paris"
 s3_bucket                       =   "terraform-state-aipril-class-aia"
 s3_folder_project               =   "eks"
 s3_folder_region                =   "us-east-1"
