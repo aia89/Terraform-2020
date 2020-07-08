@@ -9,3 +9,4 @@ output "VM3" {
 }
 output "VNET" {
     value = "${azurerm_virtual_network.vnet1.name}"
+}
